@@ -1,73 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92a12ff4-cb02-49ad-9cda-2c098dd471da" name="Default Changelist" comment="" />
+    <list default="true" id="92a12ff4-cb02-49ad-9cda-2c098dd471da" name="Default Changelist" comment="使用requests &amp; regex爬取豆瓣评分前100的榜单">
+      <change afterPath="$PROJECT_DIR$/com.beiming/Actualoperation/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.beiming/Actualoperation/parse_ajax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.beiming/testStr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.beiming/reptile/testRequests.py" beforeDir="false" afterPath="$PROJECT_DIR$/com.beiming/reptile/testRequests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.beiming/reptile/testRequestsTwo.py" beforeDir="false" afterPath="$PROJECT_DIR$/com.beiming/reptile/testRequestsTwo.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testUrllib.py">
+        <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/parse_ajax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testBeautifulSoup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2354">
-              <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testPyquery.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2398">
-              <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testSelenum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="174" column="40" lean-forward="true" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/requestsAndRegex.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.beiming/sync/threadLock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="97">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#20#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/wait.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -82,15 +53,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.beiming/reptile/regex.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/com.beiming/testStr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/requestsAndRegex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testRequests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="e#552#581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testRequestsTwo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2332">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="207">
+              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -109,6 +114,7 @@
     <findStrings>
       <find>handler</find>
       <find>input</find>
+      <find>with</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,31 +135,58 @@
         <option value="$PROJECT_DIR$/com.beiming/sync/threadQueue.py" />
         <option value="$PROJECT_DIR$/com.beiming/testdata.py" />
         <option value="$PROJECT_DIR$/com.beiming/test.py" />
-        <option value="$PROJECT_DIR$/com.beiming/reptile/testRequests.py" />
         <option value="$PROJECT_DIR$/com.beiming/reptile/testUrllib.py" />
-        <option value="$PROJECT_DIR$/com.beiming/reptile/testRequestsTwo.py" />
         <option value="$PROJECT_DIR$/com.beiming/reptile/testRegexx.py" />
         <option value="$PROJECT_DIR$/com.beiming/reptile/testBeautifulSoup.py" />
         <option value="$PROJECT_DIR$/com.beiming/reptile/demo.html" />
         <option value="$PROJECT_DIR$/com.beiming/reptile/testPyquery.py" />
         <option value="$PROJECT_DIR$/com.beiming/reptile/testSelenum.py" />
         <option value="$PROJECT_DIR$/com.beiming/Actualoperation.py" />
+        <option value="$PROJECT_DIR$/com.beiming/Actualoperation/result.txt" />
         <option value="$PROJECT_DIR$/com.beiming/Actualoperation/requestsAndRegex.py" />
+        <option value="$PROJECT_DIR$/com.beiming/Actualoperation/config.py" />
+        <option value="$PROJECT_DIR$/com.beiming/reptile/testRequests.py" />
+        <option value="$PROJECT_DIR$/com.beiming/testStr.py" />
+        <option value="$PROJECT_DIR$/com.beiming/Actualoperation/parse_ajax.py" />
+        <option value="$PROJECT_DIR$/com.beiming/reptile/testRequestsTwo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1255" />
-    <option name="width" value="1305" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1220" />
+    <option name="width" value="1340" />
     <option name="height" value="1390" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="com.beiming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="com.beiming" type="462c0819:PsiDirectoryNode" />
+              <item name="reptile" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -185,8 +218,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testSelenum">
-    <configuration name="testBeautifulSoup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.testRequestsTwo">
+    <configuration name="parse_ajax" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,12 +227,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com.beiming/reptile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com.beiming/Actualoperation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/reptile/testBeautifulSoup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/Actualoperation/parse_ajax.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testPyquery" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="requestsAndRegex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,12 +249,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com.beiming/reptile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com.beiming/Actualoperation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/reptile/testPyquery.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/Actualoperation/requestsAndRegex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testRegexx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testRequests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,7 +276,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/reptile/testRegexx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/reptile/testRequests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testSelenum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testStr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,12 +315,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com.beiming/reptile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com.beiming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/reptile/testSelenum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.beiming/testStr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testSelenum" />
-        <item itemvalue="Python.testPyquery" />
-        <item itemvalue="Python.testBeautifulSoup" />
-        <item itemvalue="Python.testRegexx" />
         <item itemvalue="Python.testRequestsTwo" />
+        <item itemvalue="Python.parse_ajax" />
+        <item itemvalue="Python.testStr" />
+        <item itemvalue="Python.testRequests" />
+        <item itemvalue="Python.requestsAndRegex" />
       </list>
     </recent_temporary>
   </component>
@@ -322,42 +355,103 @@
       <workItem from="1557106316667" duration="12072000" />
       <workItem from="1557193196369" duration="13453000" />
       <workItem from="1557279625110" duration="17421000" />
-      <workItem from="1557365315835" duration="11378000" />
+      <workItem from="1557365315835" duration="17284000" />
+      <workItem from="1557450263104" duration="11322000" />
+      <workItem from="1557480934896" duration="692000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1557388052973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557388052973</updated>
+    </task>
+    <task id="LOCAL-00002" summary="使用requests &amp; regex爬取豆瓣评分前100的榜单">
+      <created>1557391075365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557391075365</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71186000" />
+    <option name="totallyTimeSpent" value="89106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1004" y="0" width="1044" height="1112" extended-state="0" />
-    <editor active="true" />
+    <frame x="977" y="0" width="1071" height="1112" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19168358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25370187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3112245" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51632655" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4841998" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.48367348" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.38022426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3296146" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="使用requests &amp; regex爬取豆瓣评分前100的榜单" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用requests &amp; regex爬取豆瓣评分前100的榜单" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,12 +469,15 @@
     <SUITE FILE_PATH="coverage/pyDemo$testPyquery.coverage" NAME="testPyquery Coverage Results" MODIFIED="1557301505605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/reptile" />
     <SUITE FILE_PATH="coverage/pyDemo$Employee.coverage" NAME="Employee Coverage Results" MODIFIED="1557036751014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming" />
     <SUITE FILE_PATH="coverage/pyDemo$testUrllib.coverage" NAME="testUrllib Coverage Results" MODIFIED="1557209195202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/reptile" />
-    <SUITE FILE_PATH="coverage/pyDemo$testRequests.coverage" NAME="testRequests Coverage Results" MODIFIED="1557136078653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/reptile" />
+    <SUITE FILE_PATH="coverage/pyDemo$testRequests.coverage" NAME="testRequests Coverage Results" MODIFIED="1557460182475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/reptile" />
+    <SUITE FILE_PATH="coverage/pyDemo$testStr.coverage" NAME="testStr Coverage Results" MODIFIED="1557467054840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming" />
+    <SUITE FILE_PATH="coverage/pyDemo$parse_ajax.coverage" NAME="parse_ajax Coverage Results" MODIFIED="1557467149423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/Actualoperation" />
     <SUITE FILE_PATH="coverage/pyDemo$testRegexx.coverage" NAME="testRegexx Coverage Results" MODIFIED="1557282276334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/reptile" />
     <SUITE FILE_PATH="coverage/pyDemo$threadclass.coverage" NAME="threadclass Coverage Results" MODIFIED="1557113534987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming" />
+    <SUITE FILE_PATH="coverage/pyDemo$requestsAndRegex.coverage" NAME="requestsAndRegex Coverage Results" MODIFIED="1557390870433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/Actualoperation" />
     <SUITE FILE_PATH="coverage/pyDemo$test.coverage" NAME="test Coverage Results" MODIFIED="1557133661092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming" />
     <SUITE FILE_PATH="coverage/pyDemo$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1557043646370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming" />
-    <SUITE FILE_PATH="coverage/pyDemo$testRequestsTwo.coverage" NAME="testRequestsTwo Coverage Results" MODIFIED="1557213787642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/reptile" />
+    <SUITE FILE_PATH="coverage/pyDemo$testRequestsTwo.coverage" NAME="testRequestsTwo Coverage Results" MODIFIED="1557481025582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/reptile" />
     <SUITE FILE_PATH="coverage/pyDemo$threadQueue.coverage" NAME="threadQueue Coverage Results" MODIFIED="1557128722664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/sync" />
     <SUITE FILE_PATH="coverage/pyDemo$threadtest.coverage" NAME="threadtest Coverage Results" MODIFIED="1557045259171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming" />
     <SUITE FILE_PATH="coverage/pyDemo$threadLock.coverage" NAME="threadLock Coverage Results" MODIFIED="1557112987834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.beiming/sync" />
@@ -497,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testRequests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#99#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10274">
@@ -531,20 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testBeautifulSoup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2354">
-          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testPyquery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2398">
-          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.beiming/sync/threadLock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -562,6 +635,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation.py" />
+    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testSelenum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="174" column="40" lean-forward="true" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testPyquery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/regex.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testUrllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testBeautifulSoup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="66" selection-start-line="66" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/parse_ajax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="e#20#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com.beiming/reptile/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -569,35 +687,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/regex.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testRequestsTwo.py">
+    <entry file="file://$PROJECT_DIR$/com.beiming/testStr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="22">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testUrllib.py">
+    <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testSelenum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="174" column="40" lean-forward="true" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.beiming/Actualoperation/requestsAndRegex.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testRequests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#552#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.beiming/reptile/testRequestsTwo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

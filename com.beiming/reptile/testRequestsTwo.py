@@ -34,10 +34,10 @@ import requests
 # print(response.text)
 # print(response.content)
 # 下载二进制数据到本地
-# response = requests.get("https://github.com/favicon.ico")
-# with open('favicon.ico','wb') as f:
-#     f.write(response.content)
-#     f.close()
+response = requests.get("https://pic2.zhimg.com/v2-cc2a89915761263d84d1ea530e7f91f0_b.gif")
+with open('aa.gif','wb') as f:
+    f.write(response.content)
+    f.close()
 
 # 基本POST请求
 # data = {
